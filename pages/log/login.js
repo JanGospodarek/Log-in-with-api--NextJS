@@ -15,7 +15,6 @@ export default function LogInPage(props) {
     } catch (error) {
       alert(error.message);
     }
-    // router.push(`/${}`);
   }
   return <LogIn onLogIn={onLogIn}></LogIn>;
 }

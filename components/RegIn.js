@@ -20,7 +20,6 @@ export default function RegIn(props) {
         name: name.current.value,
         email: email.current.value,
         password: passwd.current.value,
-        password2: passwd2.current.value,
       };
       props.onRegIn(regInData);
       email.current.value = "";
